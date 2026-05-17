@@ -89,6 +89,7 @@ struct Treap {
     void show(int t) {
         if (v[t].l)
             show(v[t].l);
+        cout<<(int)v[t].val<<' ';
         if (v[t].r)
             show(v[t].r);
     }
